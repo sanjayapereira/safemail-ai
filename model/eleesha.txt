@@ -1,0 +1,16 @@
+git checkout main
+git pull origin main
+git checkout -b eleesha-model
+
+
+git status
+git add rule_based.py 04_train_model.py 05_manual_eval.py
+git commit -m "Add rule-based detection logic and model training scripts"
+git push -u origin eleesha-model
+
+
+Pull Request on GitHub
+After merge
+
+git checkout main
+git pull origin main
